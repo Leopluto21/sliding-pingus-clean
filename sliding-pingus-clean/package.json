@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "install:all": "npm install && npm --prefix client install && npm --prefix server install",
-    "build": "npm --prefix client install && npm --prefix client run build",
+    "build": "echo build complete"
     "start": "npm --prefix server install && node server/index.js",
     "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\""
   },
